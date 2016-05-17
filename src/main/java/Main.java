@@ -6,6 +6,7 @@ import com.typesafe.config.ConfigFactory;
  */
 public class Main {
 
+
     public static void main(String[] args) {
         Config conf = ConfigFactory.load("simple");
         Config conf2 = ConfigFactory.load("complex");
